@@ -14,14 +14,32 @@ html { background-color: #071d3b;}
 }
 
 .container {
-    max-width: 1050px;
+    max-width: 1500px;
     margin: 0 auto;         /*  will center the container on wide screen  */
     display: flex;
+  }
+
+  .imgdiv {
+      
   }
 
 .colortext {
     color:#dbb680;
     font-size: 60px;
     font-family: "english";
+    margin-top: 100px;
+    
 
+}
+
+.search{
+    font-size: 50px;
+    color:white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.box {
+    margin-top: 120px;
+    margin-left: 20px;
 }
