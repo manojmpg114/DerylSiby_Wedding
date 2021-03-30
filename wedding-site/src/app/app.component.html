@@ -21,6 +21,13 @@
 
 </body>
 
+<div class="md-form">
+  <input type="search" [(ngModel)]="searchText" placeholder="Search Name">
+</div>
+<ul *ngFor="let data of dataset | filter: searchText" class = "list-set">
+  <li>{{data}}</li>
+</ul>
+
 
 
 <router-outlet></router-outlet>
