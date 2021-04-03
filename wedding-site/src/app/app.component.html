@@ -7,26 +7,50 @@
     <div class = "colortext">
       Reception Seating Chart
     </div>
+<!-- 
     <div class = "search">
       Name: 
     </div>
     <div class = "box">
       <input>
     </div>
+-->
+    <div class="md-form">
+      <input type="search" [(ngModel)]="searchText" placeholder="Search Name">
+    </div>
+
   </div>
 </div>
 
 <body>
-  Testing documentation
+  <div class = "body">
+    <h1>
+      Seating List
+    </h1>
+  </div>
+  <ul *ngFor="let data of dataset | filter: searchText" class = "list-set">
+    <li>{{data}}</li>
+  </ul>
+
+  <div class = "imgdiv">
+    <img src = "../assets/img/table0.png">
+  </div>
 
 </body>
+
+<!--
 
 <div class="md-form">
   <input type="search" [(ngModel)]="searchText" placeholder="Search Name">
 </div>
+
 <ul *ngFor="let data of dataset | filter: searchText" class = "list-set">
   <li>{{data}}</li>
 </ul>
+
+-->
+
+
 
 
 
