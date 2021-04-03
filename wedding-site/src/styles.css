@@ -25,6 +25,7 @@ html {
     margin: 0 auto;         /*  will center the container on wide screen  */
     display: flex;
     justify-content: center;
+    
   }
 
   .container_body {
