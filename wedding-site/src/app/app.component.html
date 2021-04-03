@@ -21,19 +21,21 @@
 
   </div>
 </div>
-
-<body>
+<!--
+  If centering in this manner is not to liking remove class = "container" from h1, li, and img
+-->
+<body >
   <div class = "body">
-    <h1>
+    <h1 class = "container">
       Seating List
     </h1>
   </div>
   <ul *ngFor="let data of dataset | filter: searchText" class = "list-set">
-    <li>{{data}}</li>
+    <li class = "container">{{data}}</li>
   </ul>
 
   <div class = "imgdiv">
-    <img src = "../assets/img/table0.png">
+    <img class = "container" src = "../assets/img/table0.png">
   </div>
 
 </body>
