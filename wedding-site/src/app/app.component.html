@@ -26,12 +26,12 @@
 -->
 <body >
   <div class = "body">
-    <h1 class = "container">
+    <h1 class = "container_body">
       Seating List
     </h1>
   </div>
   <ul *ngFor="let data of dataset | filter: searchText" class = "list-set">
-    <li class = "container">{{data}}</li>
+    <li class = "container" style="font-size: 30px;">{{data}}</li>
   </ul>
 
   <div class = "imgdiv">
