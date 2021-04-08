@@ -21,7 +21,7 @@ html {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 2000px;
     margin: 0 auto;         /*  will center the container on wide screen  */
     display: flex;
     justify-content: center;
@@ -43,9 +43,10 @@ html {
 
 .colortext {
     color:#dbb680;
-    font-size: 60px;
+    font-size: 75px;
     font-family: "english";
-    margin-top: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
     
 
 }
