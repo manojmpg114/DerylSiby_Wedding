@@ -13,11 +13,13 @@ html {
     /* margin: auto; */
 
     width: 100%;
-    max-width: 800px;
+    /*max-width: 800px;*/
+    content:"width = 1000";
     margin: 0 auto;
     padding-top: 1cm;
     padding-left: 1cm;
     
+    white-space: pre;
 }
 
 .content {
