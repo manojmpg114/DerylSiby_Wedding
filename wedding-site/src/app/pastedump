@@ -1,0 +1,19 @@
+<body >
+  <div class = "body">
+<!--
+  <h1 class = "container_body">
+      Seating List
+    </h1>
+-->
+    
+
+  </div>
+  <ul *ngFor="let data of dataset | filter: searchText" class = "list-set">
+    <li class = "container" style="font-size: 35px;">{{data}}</li>
+  </ul>
+
+  <div class = "imgdiv">
+    <img class = "container" src = "../assets/img/table0.png">
+  </div>
+
+</body>
