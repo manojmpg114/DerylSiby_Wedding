@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 
 import {FormsModule} from "@angular/forms";
 import { FilterPipe } from './filter.pipe';
+import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FilterPipe
+    FilterPipe,
+    SplashScreenComponent
   ],
   imports: [
     BrowserModule,
