@@ -16,6 +16,7 @@ html {
     /*max-width: 800px;*/
     content:"width = 1000";
     margin: 0 auto;
+   
     padding-top: 1cm;
     padding-left: 1cm;
     
@@ -42,6 +43,8 @@ html {
     padding-top: 2cm;
 */
    
+    /*margin-left: 15%;*/
+   margin-right: 20%;
     
   }
 
@@ -97,3 +100,8 @@ html {
 .body {
     color:#dbb680
 }
+
+#search::placeholder {
+    font-size: 5em;
+    height: 3rem;
+  }
